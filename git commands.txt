@@ -1,9 +1,0 @@
-1- git init
-2- git add <files> stage for commit(specific file) || git add . --> stage all changes
-3- git commit -m "Your message of the commit"
-4- git status --> to git status of the files
-5- git revert ("the version code") --> to return to specific version
-6- git log --> git all commits
-7- git remote add origin "the repo link" --> to add the path of the repo
-
-
