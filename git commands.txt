@@ -4,3 +4,6 @@
 4- git status --> to git status of the files
 5- git revert ("the version code") --> to return to specific version
 6- git log --> git all commits
+7- git remote add origin "the repo link" --> to add the path of the repo
+
+
