@@ -28,6 +28,19 @@ public class ContactUsTests {
                 .clickOnHomePageButton()
                 .validateRedirectionToHomePage();
     }
+    @Test
+    public void addItemToCart(){
+        new HomePage(driver)
+                .clickOnTheLoginSignUpLink()
+                .validateDisplayingLoginForm()
+                .enterEmail(getPropertyValue("Email"))
+                .enterPassword(getPropertyValue("validPassword"))
+                .clickLoginButton()
+                .softAssertSuccessfulRedirectionToHomePageAsRegisteredUser()
+                .clickOnAddToCartButton("Men Tshirt")
+                .validateSuccessMessageOfAddingItemToCart()
+                .clickOnContinueShoppingButton();
+    }
     @BeforeClass
     public void setUp() {
         driver = new MyDriver(getPropertyValue("browserName"));

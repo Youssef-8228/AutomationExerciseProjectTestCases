@@ -4,6 +4,7 @@ import com.AutomationExerciseProjectTestCases.drivers.MyDriver;
 import com.AutomationExerciseProjectTestCases.utils.CustomSoftAssertion;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import static com.AutomationExerciseProjectTestCases.utils.PropertiesLoader.getPropertyValue;
 
@@ -18,6 +19,8 @@ public class HomePage {
     private final By continueButton = By.cssSelector("a[data-qa=\"continue-button\"]");
     private final By contactUsButton = By.partialLinkText("Contact");
     private final By loginSignUpButton = By.partialLinkText("Login");
+    private final By continueShoppingButton = By.xpath("//button[text()='Continue Shopping']");
+    private final By addedProductSuccessMessage = By.cssSelector("div.modal-body p.text-center");
 
 
     public HomePage(MyDriver driver) {
@@ -53,6 +56,17 @@ public class HomePage {
     @Step("Click on the continue button")
     public HomePage clickOnContinueButton(){
         driver.elementsActions().clickOn(continueButton);
+        return this;
+    }
+    public HomePage clickOnAddToCartButton(String productName){
+        driver.elementsActions().clickOn(By.xpath("//p[text()='" + productName + "']/following-sibling::a[contains(@class,'add-to-cart')]"));
+        return this;
+    }
+    private String getSuccessMessageOfAddingItemToCart(){
+        return driver.elementsActions().getData(addedProductSuccessMessage);
+    }
+    public HomePage clickOnContinueShoppingButton(){
+        driver.elementsActions().clickOn(continueShoppingButton);
         return this;
     }
 
@@ -102,6 +116,8 @@ public class HomePage {
         softAssertHomeURL();
         return this;
     }
-
-
+    public HomePage validateSuccessMessageOfAddingItemToCart(){
+        CustomSoftAssertion.softAssertion.assertTrue(getSuccessMessageOfAddingItemToCart().contains("Your product has been added to cart."),"The item is not added to the cart");
+        return this;
+    }
 }
