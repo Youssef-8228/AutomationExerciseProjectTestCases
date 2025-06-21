@@ -1,6 +1,5 @@
 package com.AutomationExerciseProjectTestCases.tests;
 
-import com.AutomationExerciseProjectTestCases.drivers.MyDriver;
 import com.AutomationExerciseProjectTestCases.listeners.TestNGListeners;
 import com.AutomationExerciseProjectTestCases.pages.HomePage;
 import org.testng.annotations.*;
@@ -8,9 +7,7 @@ import org.testng.annotations.*;
 import static com.AutomationExerciseProjectTestCases.utils.PropertiesLoader.getPropertyValue;
 
 @Listeners(TestNGListeners.class)
-public class ContactUsTests {
-    private MyDriver driver;
-
+public class ContactUsTests extends TestBase {
     @Test
     public void submitMessageSuccessfully() {
         new HomePage(driver)
@@ -27,28 +24,5 @@ public class ContactUsTests {
                 .validateSubmittingMessageSuccessfully()
                 .clickOnHomePageButton()
                 .validateRedirectionToHomePage();
-    }
-    @Test
-    public void addItemToCart(){
-        new HomePage(driver)
-                .clickOnTheLoginSignUpLink()
-                .validateDisplayingLoginForm()
-                .enterEmail(getPropertyValue("Email"))
-                .enterPassword(getPropertyValue("validPassword"))
-                .clickLoginButton()
-                .softAssertSuccessfulRedirectionToHomePageAsRegisteredUser()
-                .clickOnAddToCartButton("Men Tshirt")
-                .validateSuccessMessageOfAddingItemToCart()
-                .clickOnContinueShoppingButton();
-    }
-    @BeforeClass
-    public void setUp() {
-        driver = new MyDriver(getPropertyValue("browserName"));
-        new HomePage(driver).navigateToTheHomePage();
-    }
-
-    @AfterClass
-    public void tearDown() {
-        driver.browserActions().quitBrowser();
     }
 }

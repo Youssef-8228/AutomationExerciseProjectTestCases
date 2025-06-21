@@ -1,6 +1,5 @@
 package com.AutomationExerciseProjectTestCases.tests;
 
-import com.AutomationExerciseProjectTestCases.drivers.MyDriver;
 import com.AutomationExerciseProjectTestCases.listeners.TestNGListeners;
 import com.AutomationExerciseProjectTestCases.pages.HomePage;
 import org.testng.annotations.*;
@@ -8,8 +7,7 @@ import org.testng.annotations.*;
 import static com.AutomationExerciseProjectTestCases.utils.PropertiesLoader.getPropertyValue;
 
 @Listeners(TestNGListeners.class)
-public class LoginTests {
-    private MyDriver driver;
+public class LoginTests extends TestBase {
 
     @Test(dependsOnMethods = "unsuccessfulLogin")
     public void successfulLogin() {
@@ -38,17 +36,5 @@ public class LoginTests {
                 .enterPassword(getPropertyValue("validPassword"))
                 .clickLoginButton()
                 .softAssertUnsuccessfulLogin();
-    }
-
-
-    @BeforeClass
-    public void setUp() {
-        driver = new MyDriver(getPropertyValue("browserName"));
-        new HomePage(driver).navigateToTheHomePage();
-    }
-
-    @AfterClass
-    public void tearDown() {
-        driver.browserActions().quitBrowser();
     }
 }

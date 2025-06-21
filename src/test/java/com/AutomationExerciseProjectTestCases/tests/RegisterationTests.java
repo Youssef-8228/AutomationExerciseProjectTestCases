@@ -1,18 +1,15 @@
 package com.AutomationExerciseProjectTestCases.tests;
 
-import com.AutomationExerciseProjectTestCases.drivers.MyDriver;
 import com.AutomationExerciseProjectTestCases.listeners.TestNGListeners;
 import com.AutomationExerciseProjectTestCases.pages.HomePage;
-import com.AutomationExerciseProjectTestCases.pages.LoginPage;
 import org.testng.annotations.*;
 
 import static com.AutomationExerciseProjectTestCases.utils.PropertiesLoader.getPropertyValue;
 import static com.AutomationExerciseProjectTestCases.utils.TimeStampUtil.getUniqueEmail;
 
 @Listeners(TestNGListeners.class)
-public class RegisterationTests {
+public class RegisterationTests extends TestBase {
 
-    private MyDriver driver;
 
     @Test (dependsOnMethods = "rigesterationWithSameEmail")
     public void successfulRegisteration() {
@@ -50,17 +47,5 @@ public class RegisterationTests {
                 .enterRegisterationEmail(getPropertyValue("Email"))
                 .clickOnSignUpButton()
                 .validateUnsuccessfulRegisteration();
-    }
-
-
-    @BeforeClass
-    public void setUp() {
-        driver = new MyDriver(getPropertyValue("browserName"));
-        new HomePage(driver).navigateToTheHomePage();
-    }
-
-    @AfterClass
-    public void tearDown() {
-        driver.browserActions().quitBrowser();
     }
 }

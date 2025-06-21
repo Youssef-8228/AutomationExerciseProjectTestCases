@@ -11,6 +11,7 @@ public class Waits {
     // Private constructor to prevent any instentiation of this calss
     // and all methodes are static to use it without take instance
     private WebDriver driver;
+
     public Waits(WebDriver driver){this.driver=driver;}
     // wait the elemnet to be present
     @Step("Waiting the element: {locator} to be present")

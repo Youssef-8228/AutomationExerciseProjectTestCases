@@ -1,0 +1,152 @@
+[INFO] - [21-06-2025 20:38:45] [main] [com.AutomationExerciseProjectTestCases.listeners.TestNGListeners] - Test execution is started
+[INFO] - [21-06-2025 20:38:46] [main] [com.AutomationExerciseProjectTestCases.utils.PropertiesLoader] - Loading Properties File Data
+[INFO] - [21-06-2025 20:38:59] [main] [com.AutomationExerciseProjectTestCases.utils.BrowserActions] - Navigation to: https://www.automationexercise.com/
+[INFO] - [21-06-2025 20:38:59] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be clickable By.partialLinkText: Login
+[INFO] - [21-06-2025 20:38:59] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.partialLinkText: Login
+[INFO] - [21-06-2025 20:38:59] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.partialLinkText: Login
+[INFO] - [21-06-2025 20:38:59] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.partialLinkText: Login
+[INFO] - [21-06-2025 20:38:59] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.partialLinkText: Login
+[INFO] - [21-06-2025 20:39:00] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.partialLinkText: Login
+[INFO] - [21-06-2025 20:39:01] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Clicking on element: By.partialLinkText: Login
+[INFO] - [21-06-2025 20:39:01] [main] [com.AutomationExerciseProjectTestCases.utils.BrowserActions] - The current URL is: https://www.automationexercise.com/login
+[INFO] - [21-06-2025 20:39:01] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.cssSelector: .login-form h2
+[INFO] - [21-06-2025 20:39:01] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.cssSelector: .login-form h2
+[INFO] - [21-06-2025 20:39:02] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: .login-form h2
+[INFO] - [21-06-2025 20:39:02] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.cssSelector: .login-form h2
+[INFO] - [21-06-2025 20:39:02] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: .login-form h2
+[INFO] - [21-06-2025 20:39:02] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Getting the text from the By.cssSelector: .login-form h2 Text: Login to your account
+[INFO] - [21-06-2025 20:39:02] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: .login-form h2
+[INFO] - [21-06-2025 20:39:02] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.cssSelector: input[data-qa='login-email']
+[INFO] - [21-06-2025 20:39:02] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.cssSelector: input[data-qa='login-email']
+[INFO] - [21-06-2025 20:39:02] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: input[data-qa='login-email']
+[INFO] - [21-06-2025 20:39:02] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.cssSelector: input[data-qa='login-email']
+[INFO] - [21-06-2025 20:39:02] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: input[data-qa='login-email']
+[INFO] - [21-06-2025 20:39:03] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Sending Test@Test.Test to By.cssSelector: input[data-qa='login-email']
+[INFO] - [21-06-2025 20:39:03] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.cssSelector: input[data-qa='login-password']
+[INFO] - [21-06-2025 20:39:03] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.cssSelector: input[data-qa='login-password']
+[INFO] - [21-06-2025 20:39:03] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: input[data-qa='login-password']
+[INFO] - [21-06-2025 20:39:03] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.cssSelector: input[data-qa='login-password']
+[INFO] - [21-06-2025 20:39:03] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: input[data-qa='login-password']
+[INFO] - [21-06-2025 20:39:03] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Sending 123456789 to By.cssSelector: input[data-qa='login-password']
+[INFO] - [21-06-2025 20:39:03] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be clickable By.cssSelector: button[data-qa="login-button"]
+[INFO] - [21-06-2025 20:39:03] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.cssSelector: button[data-qa="login-button"]
+[INFO] - [21-06-2025 20:39:03] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.cssSelector: button[data-qa="login-button"]
+[INFO] - [21-06-2025 20:39:03] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: button[data-qa="login-button"]
+[INFO] - [21-06-2025 20:39:04] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.cssSelector: button[data-qa="login-button"]
+[INFO] - [21-06-2025 20:39:04] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: button[data-qa="login-button"]
+[INFO] - [21-06-2025 20:39:09] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Clicking on element: By.cssSelector: button[data-qa="login-button"]
+[INFO] - [21-06-2025 20:39:09] [main] [com.AutomationExerciseProjectTestCases.utils.BrowserActions] - The current URL is: https://www.automationexercise.com/
+[INFO] - [21-06-2025 20:39:09] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.xpath: //a[contains(text(), 'Logged in as')]
+[INFO] - [21-06-2025 20:39:09] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.xpath: //a[contains(text(), 'Logged in as')]
+[INFO] - [21-06-2025 20:39:10] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.xpath: //a[contains(text(), 'Logged in as')]
+[INFO] - [21-06-2025 20:39:10] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.xpath: //a[contains(text(), 'Logged in as')]
+[INFO] - [21-06-2025 20:39:10] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.xpath: //a[contains(text(), 'Logged in as')]
+[INFO] - [21-06-2025 20:39:10] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Getting the text from the By.xpath: //a[contains(text(), 'Logged in as')] Text: Logged in as TestRegisteration_1
+[INFO] - [21-06-2025 20:39:10] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.xpath: //a[contains(text(), 'Logged in as')]
+[INFO] - [21-06-2025 20:39:10] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be clickable By.xpath: //p[text()='Blue Top']/following-sibling::a[contains(@class,'add-to-cart')]
+[INFO] - [21-06-2025 20:39:10] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.xpath: //p[text()='Blue Top']/following-sibling::a[contains(@class,'add-to-cart')]
+[INFO] - [21-06-2025 20:39:10] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.xpath: //p[text()='Blue Top']/following-sibling::a[contains(@class,'add-to-cart')]
+[INFO] - [21-06-2025 20:39:10] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.xpath: //p[text()='Blue Top']/following-sibling::a[contains(@class,'add-to-cart')]
+[INFO] - [21-06-2025 20:39:10] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.xpath: //p[text()='Blue Top']/following-sibling::a[contains(@class,'add-to-cart')]
+[INFO] - [21-06-2025 20:39:10] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.xpath: //p[text()='Blue Top']/following-sibling::a[contains(@class,'add-to-cart')]
+[INFO] - [21-06-2025 20:39:10] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Clicking on element: By.xpath: //p[text()='Blue Top']/following-sibling::a[contains(@class,'add-to-cart')]
+[INFO] - [21-06-2025 20:39:10] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.cssSelector: div.modal-body p.text-center
+[INFO] - [21-06-2025 20:39:10] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.cssSelector: div.modal-body p.text-center
+[INFO] - [21-06-2025 20:39:11] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.cssSelector: div.modal-body p.text-center
+[INFO] - [21-06-2025 20:39:11] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: div.modal-body p.text-center
+[INFO] - [21-06-2025 20:39:11] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.cssSelector: div.modal-body p.text-center
+[INFO] - [21-06-2025 20:39:11] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: div.modal-body p.text-center
+[INFO] - [21-06-2025 20:39:11] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Getting the text from the By.cssSelector: div.modal-body p.text-center Text: Your product has been added to cart.
+[INFO] - [21-06-2025 20:39:11] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: div.modal-body p.text-center
+[INFO] - [21-06-2025 20:39:11] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be clickable By.partialLinkText: View Cart
+[INFO] - [21-06-2025 20:39:11] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.partialLinkText: View Cart
+[INFO] - [21-06-2025 20:39:11] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.partialLinkText: View Cart
+[INFO] - [21-06-2025 20:39:12] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.partialLinkText: View Cart
+[INFO] - [21-06-2025 20:39:12] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.partialLinkText: View Cart
+[INFO] - [21-06-2025 20:39:12] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.partialLinkText: View Cart
+[INFO] - [21-06-2025 20:39:13] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Clicking on element: By.partialLinkText: View Cart
+[INFO] - [21-06-2025 20:39:13] [main] [com.AutomationExerciseProjectTestCases.utils.BrowserActions] - The current URL is: https://www.automationexercise.com/view_cart
+[INFO] - [21-06-2025 20:39:13] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.cssSelector: tbody tr td.cart_description h4 a
+[INFO] - [21-06-2025 20:39:13] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.cssSelector: tbody tr td.cart_description h4 a
+[INFO] - [21-06-2025 20:39:13] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: tbody tr td.cart_description h4 a
+[INFO] - [21-06-2025 20:39:13] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.cssSelector: tbody tr td.cart_description h4 a
+[INFO] - [21-06-2025 20:39:13] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: tbody tr td.cart_description h4 a
+[INFO] - [21-06-2025 20:39:13] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Getting the text from the By.cssSelector: tbody tr td.cart_description h4 a Text: Blue Top
+[INFO] - [21-06-2025 20:39:13] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: tbody tr td.cart_description h4 a
+[INFO] - [21-06-2025 20:39:13] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be clickable By.cssSelector: a.check_out
+[INFO] - [21-06-2025 20:39:13] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.cssSelector: a.check_out
+[INFO] - [21-06-2025 20:39:13] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.cssSelector: a.check_out
+[INFO] - [21-06-2025 20:39:13] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: a.check_out
+[INFO] - [21-06-2025 20:39:13] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.cssSelector: a.check_out
+[INFO] - [21-06-2025 20:39:13] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: a.check_out
+[INFO] - [21-06-2025 20:39:14] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Clicking on element: By.cssSelector: a.check_out
+[INFO] - [21-06-2025 20:39:14] [main] [com.AutomationExerciseProjectTestCases.utils.BrowserActions] - The current URL is: https://www.automationexercise.com/checkout
+[INFO] - [21-06-2025 20:39:14] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be clickable By.cssSelector: a.check_out
+[INFO] - [21-06-2025 20:39:14] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.cssSelector: a.check_out
+[INFO] - [21-06-2025 20:39:14] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.cssSelector: a.check_out
+[INFO] - [21-06-2025 20:39:15] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: a.check_out
+[INFO] - [21-06-2025 20:39:15] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.cssSelector: a.check_out
+[INFO] - [21-06-2025 20:39:15] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: a.check_out
+[INFO] - [21-06-2025 20:39:16] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Clicking on element: By.cssSelector: a.check_out
+[INFO] - [21-06-2025 20:39:16] [main] [com.AutomationExerciseProjectTestCases.utils.BrowserActions] - The current URL is: https://www.automationexercise.com/payment
+[INFO] - [21-06-2025 20:39:16] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.name: name_on_card
+[INFO] - [21-06-2025 20:39:16] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.name: name_on_card
+[INFO] - [21-06-2025 20:39:16] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.name: name_on_card
+[INFO] - [21-06-2025 20:39:16] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.name: name_on_card
+[INFO] - [21-06-2025 20:39:16] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.name: name_on_card
+[INFO] - [21-06-2025 20:39:16] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Sending youssef mohamed husien to By.name: name_on_card
+[INFO] - [21-06-2025 20:39:16] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.name: card_number
+[INFO] - [21-06-2025 20:39:16] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.name: card_number
+[INFO] - [21-06-2025 20:39:17] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.name: card_number
+[INFO] - [21-06-2025 20:39:17] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.name: card_number
+[INFO] - [21-06-2025 20:39:17] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.name: card_number
+[INFO] - [21-06-2025 20:39:17] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Sending 1234 to By.name: card_number
+[INFO] - [21-06-2025 20:39:17] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.cssSelector: input.card-cvc
+[INFO] - [21-06-2025 20:39:17] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.cssSelector: input.card-cvc
+[INFO] - [21-06-2025 20:39:17] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: input.card-cvc
+[INFO] - [21-06-2025 20:39:17] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.cssSelector: input.card-cvc
+[INFO] - [21-06-2025 20:39:17] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.cssSelector: input.card-cvc
+[INFO] - [21-06-2025 20:39:17] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Sending 123 to By.cssSelector: input.card-cvc
+[INFO] - [21-06-2025 20:39:17] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.name: expiry_month
+[INFO] - [21-06-2025 20:39:17] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.name: expiry_month
+[INFO] - [21-06-2025 20:39:18] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.name: expiry_month
+[INFO] - [21-06-2025 20:39:18] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.name: expiry_month
+[INFO] - [21-06-2025 20:39:18] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.name: expiry_month
+[INFO] - [21-06-2025 20:39:18] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Sending 07 to By.name: expiry_month
+[INFO] - [21-06-2025 20:39:18] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.name: expiry_year
+[INFO] - [21-06-2025 20:39:18] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.name: expiry_year
+[INFO] - [21-06-2025 20:39:18] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.name: expiry_year
+[INFO] - [21-06-2025 20:39:18] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.name: expiry_year
+[INFO] - [21-06-2025 20:39:18] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.name: expiry_year
+[INFO] - [21-06-2025 20:39:19] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Sending 2029 to By.name: expiry_year
+[INFO] - [21-06-2025 20:39:19] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be clickable By.id: submit
+[INFO] - [21-06-2025 20:39:19] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.id: submit
+[INFO] - [21-06-2025 20:39:19] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.id: submit
+[INFO] - [21-06-2025 20:39:19] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.id: submit
+[INFO] - [21-06-2025 20:39:19] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.id: submit
+[INFO] - [21-06-2025 20:39:19] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.id: submit
+[INFO] - [21-06-2025 20:39:19] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Clicking on element: By.id: submit
+[INFO] - [21-06-2025 20:39:19] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.xpath: //p[contains(text(), 'Your order has been confirmed')]
+[INFO] - [21-06-2025 20:39:19] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.xpath: //p[contains(text(), 'Your order has been confirmed')]
+[INFO] - [21-06-2025 20:39:21] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.xpath: //p[contains(text(), 'Your order has been confirmed')]
+[INFO] - [21-06-2025 20:39:22] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.xpath: //p[contains(text(), 'Your order has been confirmed')]
+[INFO] - [21-06-2025 20:39:22] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.xpath: //p[contains(text(), 'Your order has been confirmed')]
+[INFO] - [21-06-2025 20:39:22] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Getting the text from the By.xpath: //p[contains(text(), 'Your order has been confirmed')] Text: Congratulations! Your order has been confirmed!
+[INFO] - [21-06-2025 20:39:22] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.xpath: //p[contains(text(), 'Your order has been confirmed')]
+[INFO] - [21-06-2025 20:39:22] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be clickable By.className: btn-primary
+[INFO] - [21-06-2025 20:39:22] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.className: btn-primary
+[INFO] - [21-06-2025 20:39:22] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.className: btn-primary
+[INFO] - [21-06-2025 20:39:22] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.className: btn-primary
+[INFO] - [21-06-2025 20:39:22] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.className: btn-primary
+[INFO] - [21-06-2025 20:39:22] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.className: btn-primary
+[INFO] - [21-06-2025 20:39:27] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Clicking on element: By.className: btn-primary
+[INFO] - [21-06-2025 20:39:27] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be clickable By.partialLinkText: Logout
+[INFO] - [21-06-2025 20:39:27] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be visible By.partialLinkText: Logout
+[INFO] - [21-06-2025 20:39:27] [main] [com.AutomationExerciseProjectTestCases.utils.Waits] - Waiting the element to be present By.partialLinkText: Logout
+[INFO] - [21-06-2025 20:39:28] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.partialLinkText: Logout
+[INFO] - [21-06-2025 20:39:28] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Scrolling to By.partialLinkText: Logout
+[INFO] - [21-06-2025 20:39:28] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Finding element: By.partialLinkText: Logout
+[INFO] - [21-06-2025 20:39:29] [main] [com.AutomationExerciseProjectTestCases.utils.ElementsActions] - Clicking on element: By.partialLinkText: Logout
+[INFO] - [21-06-2025 20:39:29] [main] [com.AutomationExerciseProjectTestCases.utils.BrowserActions] - The current URL is: https://www.automationexercise.com/login
+[INFO] - [21-06-2025 20:39:29] [main] [com.AutomationExerciseProjectTestCases.utils.CustomSoftAssertion] - Assert all is performed
+[INFO] - [21-06-2025 20:39:29] [main] [com.AutomationExerciseProjectTestCases.utils.TimeStampUtil] - The time Stamp is: java.text.SimpleDateFormat@efddb6e
